@@ -2,7 +2,7 @@
 
 Versioned, on-device Core ML model files for AnimeMovieCamera. The iOS 18+ app downloads the full model set during initial setup and only changed files after model updates. Downloaded files are pinned by SHA-256 in the app's ModelCatalog.json. No server-side inference is used.
 
-Release assets contain the existing model weights without quantization or changes to generation settings. Unchanged model locations remain stable across app updates. The application source, signing material and user photographs are not included.
+Release assets are byte-for-byte copies of the previously bundled Core ML model files; this migration applies no additional quantization, precision conversion or generation-setting changes. Unchanged model locations remain stable across app updates. The application source, signing material and user photographs are not included.
 
 ## Model notices
 
